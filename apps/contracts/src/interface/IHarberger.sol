@@ -2,7 +2,7 @@
 pragma solidity 0.8.26;
 
 interface IHarberger {
-    function registerSbt(address _asset, address _idc) external  returns (bool _success);
+    function registerAssetCollection(address _asset, address _idc) external  returns (bool _success);
     
     function registerAsset(address _asset, uint _tokenId) external  returns (bool _success);
 
